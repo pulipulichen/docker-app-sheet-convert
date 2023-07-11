@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# cd /tmp/docker-app-ssconvert/
-# /tmp/docker-app-ssconvert/s.sh
+# cd /tmp/docker-app-sheet-convert/
+# /tmp/docker-app-sheet-convert/s.sh
 
-PROJECT_NAME=docker-app-ssconvert
+PROJECT_NAME=docker-app-sheet-convert
 
 # ----
 

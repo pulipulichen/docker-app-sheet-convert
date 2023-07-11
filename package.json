@@ -1,5 +1,5 @@
 {
-  "name": "docker-app-ssconvert",
+  "name": "docker-app-sheet-convert",
   "version": "1.0.0",
   "description": "Trim an image.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://pulipuli.chen@gmail.com@github.com/pulipulichen/docker-app-ssconvert.git"
+    "url": "git+https://pulipuli.chen@gmail.com@github.com/pulipulichen/docker-app-sheet-convert.git"
   },
   "keywords": [
     "PWA"
@@ -19,9 +19,9 @@
   "author": "Pulipuli Chen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pulipulichen/docker-app-ssconvert/issues"
+    "url": "https://github.com/pulipulichen/docker-app-sheet-convert/issues"
   },
-  "homepage": "https://github.com/pulipulichen/docker-app-ssconvert#readme",
+  "homepage": "https://github.com/pulipulichen/docker-app-sheet-convert#readme",
   "dependencies": {
   }
 }
