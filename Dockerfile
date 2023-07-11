@@ -1,6 +1,6 @@
 FROM pudding/docker-app:node-18-20230518
 RUN apt-get install -y \
-     gnumeric
+     libreoffice-core
 
 # FROM node:18.12.1-buster
 

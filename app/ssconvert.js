@@ -18,10 +18,11 @@ let main = async function () {
     let ext = path.extname(filename)
     let toExt = 'ods'
     if (ext === '.ods') { 
-      toExt = '.xlsx'
+      toExt = 'xlsx'
     }
 
-    let command = await ShellExec(`ssconvert "${filenameNoExt + ext}" "${filenameNoExt + toExt}"`)
+    // let command = await ShellExec(`ssconvert "${filenameNoExt + ext}" "${filenameNoExt + toExt}"`)
+    let command = await ShellExec(`libreoffice --convert-to "${toExt}" "${filename}"`)
     await ShellExec(command)
   }
 }
