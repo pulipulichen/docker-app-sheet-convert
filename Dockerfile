@@ -1,7 +1,5 @@
 FROM linuxserver/libreoffice:amd64-7.5.3
-RUN apt-get update
-
-RUN apt-get install nodejs -y
+RUN cat /etc/os-release
 
 
 # FROM node:18.12.1-buster
