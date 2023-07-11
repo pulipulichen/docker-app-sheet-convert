@@ -1,9 +1,7 @@
-FROM pudding/docker-app:node-18-20230518
+FROM linuxserver/libreoffice:amd64-7.5.3
 RUN apt-get update
-RUN apt-get install -y \
-     libreoffice-core
-RUN apt-get install libreoffice-java-common -y
-RUN rm ~/.config/libreoffice/4/user/config/javasettings_Linux_*.xml
+
+RUN apt-get install nodejs -y
 
 
 # FROM node:18.12.1-buster
