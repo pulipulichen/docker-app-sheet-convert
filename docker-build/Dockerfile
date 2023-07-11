@@ -2,7 +2,6 @@ FROM pudding/docker-app:node-18-20230518
 RUN apt-get update
 RUN apt-get install -y \
      libreoffice-core
-RUN apt-get install libreoffice-java-common -y
 
 # FROM node:18.12.1-buster
 
