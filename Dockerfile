@@ -1,5 +1,5 @@
 FROM linuxserver/libreoffice:amd64-7.5.3
-RUN cat /etc/os-release
+RUN apk add --update npm
 
 
 # FROM node:18.12.1-buster
