@@ -22,6 +22,7 @@ let main = async function () {
     }
 
     // let command = await ShellExec(`ssconvert "${filenameNoExt + ext}" "${filenameNoExt + toExt}"`)
+    await ShellExec(`ls -a`)
     await ShellExec(`libreoffice --convert-to "${toExt}" "${filename}"`)
     // console.log(command)
     // await ShellExec(command)
