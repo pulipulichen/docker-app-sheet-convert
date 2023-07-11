@@ -1,5 +1,7 @@
-FROM linuxserver/libreoffice:amd64-7.5.3
-RUN apk add --update npm
+FROM olbat/libreoffice:i18n-2023-06-09
+RUN apt-get update
+RUN apt-get install -y nodejs
+# RUN apk add --update npm
 
 
 # FROM node:18.12.1-buster
