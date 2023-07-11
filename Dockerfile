@@ -1,6 +1,8 @@
 FROM olbat/libreoffice:i18n-2023-06-09
 RUN apt-get update
 RUN apt-get install -y nodejs
+
+WORKDIR /input/
 # RUN apk add --update npm
 
 
