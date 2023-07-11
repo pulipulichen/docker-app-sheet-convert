@@ -1,7 +1,10 @@
-FROM pudding/docker-app:node-18-20230518
+FROM olbat/libreoffice:i18n-2023-06-09
 RUN apt-get update
-RUN apt-get install -y \
-     libreoffice-core
+RUN apt-get install -y nodejs
+
+WORKDIR /input/
+# RUN apk add --update npm
+
 
 # FROM node:18.12.1-buster
 

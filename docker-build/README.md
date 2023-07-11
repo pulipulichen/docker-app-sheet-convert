@@ -1,7 +1,8 @@
 # Dockerhub
 
 - https://docs.docker.com/get-started/04_sharing_app/
-- `docker image ls` 找出合適的名稱，例如「html-webpage-dashboard_app」
-- `docker tag html-webpage-dashboard_app pudding/node-pwa:node-12-20230513`
-- `docker push pudding/node-pwa:node-12-20230513`
-- 修改Dockerfile `FROM pudding/node-pwa:node-12-20230513`
+- https://hub.docker.com/
+- `docker image ls` 找出合適的名稱，例如「docker-app-sheet-convert_app」
+- `docker tag docker-app-sheet-convert_app pudding/docker-app-libreoffice-nodejs-20230711`
+- `docker push pudding/docker-app-libreoffice-nodejs-20230711`
+- 修改Dockerfile `FROM pudding/docker-app-libreoffice-nodejs-20230711`
